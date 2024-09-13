@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Kodchasan";
+  src: url("fonts/Kodchasan-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+body {
+  font-family: "Kodchasan", sans-serif;
+  background-color: #EFEEF3;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  background-color: #EFEEF3;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  list-style: none;
+}
+
+main {
+  margin: auto;
+}
+
+.container,
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.container {
+  text-align: center;
+}
+
+.container-2 {
+  justify-content: space-between;
+}
+
+.prg-p p {
+  width: 493px;
+  height: 78px;
+  top: 815px;
+  left: 132px;
+}
+
+.img-topo {
+  height: 50vh;
+  background-image: url("IMG/BACKGROUND.png");
+}
+
+.img1 {
+  width: 450px;
+  height: 355px;
+  top: 359px;
+  left: 139px;
+  border-radius: 20px;
+}
+
+.imagem-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.imagem-container img {
+  margin: 0 50px;
+}
+
+h2 {
+  font-weight: 400;
+  size: 36px;
+  line-height: 46.8px;
+  text-align: center;
+}
+
+span {
+  width: 573px;
+  height: 203px;
+  top: 472px;
+  left: 730px;
+  padding: 8%;
+}
+
+.span-2 {
+  width: 493px;
+  height: 78px;
+  top: 815px;
+  left: 132px;
+}/*# sourceMappingURL=style.css.map */
